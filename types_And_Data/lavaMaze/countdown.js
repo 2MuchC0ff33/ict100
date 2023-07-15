@@ -1,6 +1,6 @@
 function movingX() {
-    while (getX() !== getGoalX()) {
-      if (getX() < getGoalX()) {
+    while (getX() !== getGoalDistance()) {
+      if (getX() < getGoalDistance()) {
         if (canGoRight()) {
           right();
         } else {
@@ -17,8 +17,8 @@ function movingX() {
   }
 
 function movingY() {
-    while (getY() !== getGoalY()) {
-      if (getY() < getGoalY()) {
+    while (getY() !== getGoalDistance()) {
+      if (getY() < getGoalDistance()) {
         if (canGoDown()) {
           down();
         } else {
@@ -33,6 +33,9 @@ function movingY() {
       }
     }
 }
-  
+
 movingX();
 movingY();
+
+
+
