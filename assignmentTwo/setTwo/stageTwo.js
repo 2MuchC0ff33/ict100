@@ -1,7 +1,7 @@
 /*
-ASSIGNMENT Set 1
+ASSIGNMENT Set 2
 
-Set 1, Stage 3
+Set 2, Stage 2
 
 Just make your way to the exit
 */
@@ -37,6 +37,12 @@ while (!stop) {
     // If the robot is only on the left line, turn right
     else if (l && !r) {
         right(3);
+        forward(1);
+    }
+
+    // If the robot is only on the right line, turn left
+    else if (!l && r) {
+        left(2);
         forward(1);
     }
 

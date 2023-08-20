@@ -1,9 +1,9 @@
 /*
-ASSIGNMENT Set 1
+ASSIGNMENT Set 2
 
-Set 1, Stage 3
+Set 2, Stage 3
 
-Just make your way to the exit
+Remember, in Set 2, the robot is not perfectly accurate in its movements
 */
 
 // Add three line sensors: two green line sensors and one junction sensor
@@ -37,6 +37,12 @@ while (!stop) {
     // If the robot is only on the left line, turn right
     else if (l && !r) {
         right(3);
+        forward(1);
+    }
+
+    // If the robot is only on the right line, turn left
+    else if (!l && r) {
+        left(2);
         forward(1);
     }
 
