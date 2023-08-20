@@ -36,7 +36,7 @@ while (!stop) {
 
     // If the robot is only on the left line, turn right
     else if (l && !r) {
-        right(3);
+        right(5);
         forward(1);
     }
 
