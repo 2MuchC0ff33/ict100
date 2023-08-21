@@ -7,15 +7,15 @@ Remember, a green square before a t-juntion tells you which way to turn. If ther
 */
 
 // Add five line sensors: two green line sensors, two junction sensors, and one stop sensor
-addLineSensor(20, -6, 0, 255, 0) // line sensor, green only
-addLineSensor(20, 6, 0, 255, 0) // line sensor, green only
-addLineSensor(8, 8, 255, 0, 255) // junction sensor, a little closer and wider
-addLineSensor(8, -8, 255, 0, 255) // junction sensor, a little closer and wider
-addLineSensor(0, 0, 0, 0, 0) // stop sensor - black component
+addLineSensor(20, -6, 0, 255, 0)
+addLineSensor(20, 6, 0, 255, 0)
+addLineSensor(8, 8, 255, 0, 255)
+addLineSensor(8, -8, 255, 0, 255)
+addLineSensor(0, 0, 0, 0, 0)
 
 // Add two stop sensors: one for detecting a red line and one for detecting a non-red line
-addLineSensor(0, 0, 255, 0, 0) // stop sensor - red component
-addLineSensor(0, 0, 0, 255, 255) // stop sensor - non-red component
+addLineSensor(0, 0, 255, 0, 0)
+addLineSensor(0, 0, 0, 255, 255)
 
 // Initialize a variable to track whether the robot has reached the exit
 let stop = false;

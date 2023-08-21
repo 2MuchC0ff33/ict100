@@ -6,8 +6,8 @@ Set 2, Stage 1
 Remember, in Set 2, the robot is not perfectly accurate in its movements
 */
 
-addLineSensor(20, -8, 0, 255, 0) // sensor 0, green only
-addLineSensor(20, 8, 0, 255, 0) // sensor 1, green only
+addLineSensor(20, -8, 0, 255, 0) // sensor 0
+addLineSensor(20, 8, 0, 255, 0) // sensor 1
 
 while (true) {
   let l = readSensor(0) > 0.5 // left seeing light

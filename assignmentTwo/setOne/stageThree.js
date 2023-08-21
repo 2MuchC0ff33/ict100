@@ -7,9 +7,9 @@ Just make your way to the exit
 */
 
 // Add three line sensors: two green line sensors and one junction sensor
-addLineSensor(20, -6, 0, 255, 0);
-addLineSensor(20, 6, 0, 255, 0);
-addLineSensor(8, 8, 255, 0, 255);
+addLineSensor(20, -6, 0, 255, 0)
+addLineSensor(20, 6, 0, 255, 0)
+addLineSensor(8, 8, 255, 0, 255)
 
 // Add two stop sensors: one for detecting a red line and one for detecting a non-red line
 addLineSensor(0, 0, 255, 0, 0);
