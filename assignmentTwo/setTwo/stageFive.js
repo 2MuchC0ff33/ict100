@@ -1,16 +1,3 @@
-# Assignment 2
-
-## Adrian Edric Gallo (220185241)
-
-### TRIMESTER 2 2023 ICT100 Computational Thinking
-
-### Unit Coordinator: Mitchell Welch
-
-### Due Date: 11:59pm, 21st August 2023 (AEST)
-
-## Single Program
-
-```Javascript
 // Add five line sensors: two green line sensors, two junction sensors, and one stop sensor
 addLineSensor(20, -6, 0, 255, 0)
 addLineSensor(20, 6, 0, 255, 0)
@@ -21,6 +8,9 @@ addLineSensor(0, 0, 0, 0, 0)
 // Add two stop sensors: one for detecting a red line and one for detecting a non-red line
 addLineSensor(0, 0, 255, 0, 0)
 addLineSensor(0, 0, 0, 255, 255)
+
+// Add one sensor to detect orange
+addLineSensor(0, 0, 255, 165, 0)
 
 // Initialize a variable to track whether the robot has reached the exit
 let stop = false;
@@ -34,11 +24,14 @@ while (!stop) {
     let jl = readSensor(2) < 0.5; // junction sensor, left
     let jr = readSensor(3) < 0.5; // junction sensor, right
     let s = readSensor(4) < 0.5; // stop sensor
+    let red = readSensor(5) < 0.5; // red sensor
+    let nred = readSensor(6) < 0.5; // non-red sensor
+    let o = readSensor(7) > 0.5; // orange sensor
 
     // Check if the robot has reached the exit
     stop = readSensor(5) > 0.5 && readSensor(6) < 0.4;
 
-        // If the robot is on a line, move forward
+    // If the robot is on a line, move forward
     if (l && r) {
         forward(2);
     }
@@ -67,26 +60,12 @@ while (!stop) {
             forward(1);
         }
     }
+
+    // If the robot detects orange, start to zig zag in the orange area
+
+    // If the robot detects a green circle, continue forward zig zagging in the orange area until it finds a black line again
+
+
+    // Once the robot finds the black line, the robot continue the line until it stops at red
+
 }
-
-/*
-Set One
-    Stage One = Pass
-    Stage Two = Pass
-    Stage Three = Pass
-    Stage Four = Pass
-    Stage Five = Pass
-    Stage Six = Pass
-    Stage Seven = Fail
-
-Set Two
-    Stage One = Pass
-    Stage Two = Pass
-    Stage Three = Pass
-    Stage Four = Fail
-    Stage Five = Fail
-        // 
-    Stage Six = Fail
-    Stage Seven = Fail
-*/
-```
