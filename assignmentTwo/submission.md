@@ -78,40 +78,65 @@ Set One
     Stage Five = Pass
     Stage Six = Pass
     Stage Seven = Fail
+        // Add wider sensors in front and in the middle of the robot to detect broken curved black lines
+        addLineSensor(20, 0, 0, 0, 0)
+        addLineSensor(0, 0, 0, 0, 0)
+        // If the robot detects a broken curved black line, turn right until it finds a black line
+        if (readSensor(7) > 0.5) {
+            while (!l && !r) {
+                right(1);
+            }
+        }
+        // Once the robot finds the black line, the robot continue the line until it stops at red
+        if (s) {
+            while (!red) {
+                forward(1);
+            }
+        }
 
 Set Two
     Stage One = Pass
     Stage Two = Pass
     Stage Three = Pass
     Stage Four = Fail
+        // If the line changes at a sharper 45 degree angle, detect the change and turn right
+        if (l && !r) {
+            right(4);
+            forward(1);
+        }
+        // If the line changes at a sharper 45 degree angle, detect the change and turn left
+        else if (!l && r) {
+            left(4);
+            forward(1);
+        }
     Stage Five = Fail
-            // If the robot detects orange, start to zig zag in the orange area
-    if (o) {
-        while (!s) {
-            if (l) {
-                forward(1);
-                right(4);
-            } else {
-                forward(1);
-                left(4);
+        // If the robot detects orange, start to zig zag in the orange area
+        if (o) {
+            while (!s) {
+                if (l) {
+                    forward(1);
+                    right(4);
+                } else {
+                    forward(1);
+                    left(4);
+                }
             }
         }
-    }
-
-    // If the robot detects a green circle, continue forward zig zagging in the orange area until it finds a black line again
-    if (readSensor(7) > 0.5) {
-        while (!l && !r) {
-            forward(1);
+        // If the robot detects a green circle, continue forward zig zagging in the orange area until it finds a black line again
+        if (readSensor(7) > 0.5) {
+            while (!l && !r) {
+                forward(1);
+            }
         }
-    }
-
-    // Once the robot finds the black line, the robot continue the line until it stops at red
-    if (s) {
-        while (!red) {
-            forward(1);
-        }
-    } 
+        // Once the robot finds the black line, the robot continue the line until it stops at red
+        if (s) {
+            while (!red) {
+                forward(1);
+            }
+        } 
     Stage Six = Fail
+        // The solution to stage six should be the same as stage five and four
     Stage Seven = Fail
+        // The solution to stage seven should be a combination of all working solutions from the previous stages
 */
 ```
