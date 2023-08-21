@@ -3,7 +3,7 @@ ASSIGNMENT Set 1
 
 Set 1, Stage 6
 
-Remember, a green square before a t-juntion tells you which way to turn. If there's no green square at a cross-roads, go straight across.
+Remember, a green square before a t-junction tells you which way to turn. If there's no green square at a cross-roads, go straight across.
 */
 
 // Add five line sensors: two green line sensors, two junction sensors, and one stop sensor

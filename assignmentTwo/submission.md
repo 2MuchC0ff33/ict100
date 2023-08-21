@@ -1,21 +1,26 @@
-/*
-ASSIGNMENT Set 2
+# Assignment 2
 
-Set 2, Stage 4
+## Adrian Edric Gallo (220185241)
 
-Remember, in Set 2, the robot is not perfectly accurate in its movements
-*/
+### TRIMESTER 2 2023 ICT100 Computational Thinking
 
+### Unit Coordinator: Mitchell Welch
+
+### Due Date: 11:59pm, 21st August 2023 (AEST)
+
+## Single Program
+
+```Javascript
 // Add five line sensors: two green line sensors, two junction sensors, and one stop sensor
-addLineSensor(20, -6, 0, 255, 0) // line sensor, green only
-addLineSensor(20, 6, 0, 255, 0) // line sensor, green only
-addLineSensor(8, 8, 255, 0, 255) // junction sensor, a little closer and wider
-addLineSensor(8, -8, 255, 0, 255) // junction sensor, a little closer and wider
-addLineSensor(0, 0, 0, 0, 0) // stop sensor - black component
+addLineSensor(20, -6, 0, 255, 0)
+addLineSensor(20, 6, 0, 255, 0)
+addLineSensor(8, 8, 255, 0, 255)
+addLineSensor(8, -8, 255, 0, 255)
+addLineSensor(0, 0, 0, 0, 0)
 
 // Add two stop sensors: one for detecting a red line and one for detecting a non-red line
-addLineSensor(0, 0, 255, 0, 0) // stop sensor - red component
-addLineSensor(0, 0, 0, 255, 255) // stop sensor - non-red component
+addLineSensor(0, 0, 255, 0, 0)
+addLineSensor(0, 0, 0, 255, 255)
 
 // Initialize a variable to track whether the robot has reached the exit
 let stop = false;
@@ -63,3 +68,4 @@ while (!stop) {
         }
     }
 }
+```
