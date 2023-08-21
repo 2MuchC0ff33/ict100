@@ -85,7 +85,32 @@ Set Two
     Stage Three = Pass
     Stage Four = Fail
     Stage Five = Fail
-        // 
+            // If the robot detects orange, start to zig zag in the orange area
+    if (o) {
+        while (!s) {
+            if (l) {
+                forward(1);
+                right(4);
+            } else {
+                forward(1);
+                left(4);
+            }
+        }
+    }
+
+    // If the robot detects a green circle, continue forward zig zagging in the orange area until it finds a black line again
+    if (readSensor(7) > 0.5) {
+        while (!l && !r) {
+            forward(1);
+        }
+    }
+
+    // Once the robot finds the black line, the robot continue the line until it stops at red
+    if (s) {
+        while (!red) {
+            forward(1);
+        }
+    } 
     Stage Six = Fail
     Stage Seven = Fail
 */
