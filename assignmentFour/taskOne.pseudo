@@ -1,0 +1,32 @@
+/*
+Task One: Roboceptionist
+
+This ECMAScript (JavaScript) programming assignment tests your ability to recognise patterns in strings, 
+use string and natural language processing functions, and manipulate JavaScript object structures. 
+The task entails writing code for a "Roboceptionist," a reception desk robot that extracts booking information from booking enquiries. 
+The 'parseBookingEnquiry' function is used, which accepts a booking enquiry string as input and returns an object with the properties 'bookingName', 
+'bookingTime', and 'bookingNumber'. Your score is affected by the success rate of parsing, and efficient, concise code is prefered. 
+Testing entails running a simulation and logging with 'console.log' or a global 'log' function provided.
+*/
+
+function parseBookingEnquiry(bookingEnquiry):
+    Initialize bookingName to null
+    Initialize bookingTime to null
+    Initialize bookingNumber to null
+
+    Split bookingEnquiry by spaces into words
+
+    For each word in words:
+        If word contains "reservation":
+            Set bookingName to the word after "for"
+        If word contains "at":
+            Set bookingTime to the word after it
+        If word is a number:
+            Set bookingNumber to the word
+
+    Create a result object with the following properties:
+        bookingName: bookingName
+        bookingTime: bookingTime
+        bookingNumber: bookingNumber
+
+    Return the result object

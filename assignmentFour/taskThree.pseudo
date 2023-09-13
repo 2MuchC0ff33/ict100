@@ -1,0 +1,100 @@
+/*
+Task Three: Robot Chef
+
+This ECMAScript (JavaScript) programming assignment requires you to create a robot chef in a restaurant who will prepare six orders, 
+including a steak and a side dish, at varying cooking temperatures and times. The chef can only handle five items in inventory, 
+and these tasks are managed by the 'robotChef' function in the'solution/task3.js' file using 'kitchenController' methods. 
+To test the solution, a simulation is run, and logging can be done with 'console.log' or the global 'log' function. 
+The scoring is affected by the success rate and proper use of sensor data.
+*/
+
+function robotChef():
+    Initialize variables:
+        ordersList = []  # To store the list of orders to cook
+        cleanPlates = 2  # To keep track of the number of clean plates available (start with 2)
+        dirtyPlate = false  # To track if there is a dirty plate
+
+    Subscribe to 'temperature_sensor' and 'stove_clock' topics:
+        kitchenController.subscribe('temperature_sensor', handleTemperatureUpdate)
+        kitchenController.subscribe('stove_clock', handleStoveClockUpdate)
+
+    Subscribe to 'weight_sensor' topic:
+        kitchenController.subscribe('weight_sensor', handleWeightSensorUpdate)
+
+    Retrieve the list of orders to cook:
+        ordersList = kitchenController.getOrders()
+
+    Iterate through each order in ordersList:
+        if cleanPlates == 0:
+            cleanDirtyPlates()  # Function to clean dirty plates
+
+        # Retrieve steak and side information from the order
+        steak = order.steak
+        side = order.side
+
+        # Prepare and cook the steak
+        cookSteak(steak)
+
+        # Prepare and cook the side
+        cookSide(side)
+
+        # Plate the meal
+        if cleanPlates > 0:
+            plateMeal(steak, side)
+            cleanPlates--
+
+    Unsubscribe from all topics:
+        kitchenController.unsubscribeAll()
+
+# Callback function for handling temperature updates
+function handleTemperatureUpdate(temperatureData):
+    # Process temperature updates here
+    ...
+
+# Callback function for handling stove clock updates
+function handleStoveClockUpdate(clockData):
+    # Process stove clock updates here
+    ...
+
+# Callback function for handling weight sensor updates
+function handleWeightSensorUpdate(weightData):
+    # Process weight sensor updates here
+    ...
+
+# Function to clean dirty plates
+function cleanDirtyPlates():
+    if dirtyPlate:
+        kitchenController.washDirtyPlates()
+        dirtyPlate = false
+        cleanPlates = 3  # After cleaning, we have 3 clean plates
+
+# Function to cook the steak
+function cookSteak(steak):
+    # Calculate required cooking time based on steak's temperature
+    requiredCookingTime = calculateCookingTime(steak)
+
+    # Place steak on a stove fire and cook for the required time
+    kitchenController.placeSteakOnStove(steak, requiredCookingTime)
+
+# Function to cook the side
+function cookSide(side):
+    # Calculate required cooking time based on the side type
+    requiredCookingTime = calculateCookingTime(side)
+
+    # Place side on a stove fire and cook for the required time
+    kitchenController.placeSideOnStove(side, requiredCookingTime)
+
+# Function to plate the meal
+function plateMeal(steak, side):
+    # Plate the meal with a clean plate
+    kitchenController.plateMeal(steak, side)
+    cleanPlates--
+
+# Function to calculate cooking time
+function calculateCookingTime(item):
+    if item is steak:
+        # Calculate steak cooking time based on temperature
+        ...
+    else if item is side:
+        # Calculate side cooking time based on type
+        ...

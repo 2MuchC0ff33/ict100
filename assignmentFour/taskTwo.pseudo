@@ -1,0 +1,29 @@
+/*
+Task Two: Restaurant Robot Waiters
+
+This ECMAScript (JavaScript) programming assignment focuses on creating code for restaurant robot waiters, 
+with a focus on resource management in a non-sequential programming paradigm to avoid deadlocks. 
+In three scenarios, the robots can teleport to tables: unattended, misplaced, and acquired. 
+Using resource acquisition and try-catch-finally blocks, the'safeTeleportTo' function ensures that no conflicts or deadlocks occur. 
+Additional code can be added by using global variables and functions. The global variable'restaurantController' contains methods for controlling the robots. 
+A simulation is run to test the solution, and logging is done with console.log or the provided global function. 
+The scoring is affected by the success rate and proper use of try-catch-finally blocks.
+*/
+
+function safeTeleportTo(robotID, tableID):
+    Try:
+        Acquire the target robot with ID robotID
+        If successful:
+            Teleport the robot to the destination table with ID tableID
+    Catch (RobotAcquisitionError):
+        Try:
+            Check if the robot attending the destination table is 'misplaced'
+            If it's misplaced:
+                Acquire the 'misplaced' robot
+                Release the 'misplaced' robot to a random unattended table
+                Acquire the target robot with ID robotID
+                If successful:
+                    Teleport the robot to the destination table with ID tableID
+        Finally:
+            Release the target robot if acquired
+
