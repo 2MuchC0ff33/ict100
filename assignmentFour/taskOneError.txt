@@ -1,0 +1,401 @@
+ERROR::
+Error parsing the enquiry 'Good afternoon, I am Linda and there should be a booking for five at 12:00pm'.
+Expected the object {"bookingName":"Linda","bookingTime":"12:00pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my reservation is under the name Darryl at 8:00pm for three'.
+Expected the object {"bookingName":"Darryl","bookingTime":"8:00pm","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking under the name Damaris Morales'.
+Expected the object {"bookingName":"Damaris Morales","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, I am Maia and there should be a booking for four at 5:30pm'.
+Expected the object {"bookingName":"Maia","bookingTime":"5:30pm","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my booking is under the name Kiley at 2:15pm for seven'.
+Expected the object {"bookingName":"Kiley","bookingTime":"2:15pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day, my name is Mike Rodriguez. I have a reservation for three persons'.
+Expected the object {"bookingName":"Mike Rodriguez","bookingTime":null,"bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking for three. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a reservation for Janessa Choi?'.
+Expected the object {"bookingName":"Janessa Choi","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a reservation for Hayden Kennedy?'.
+Expected the object {"bookingName":"Hayden Kennedy","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a booking for Greta?'.
+Expected the object {"bookingName":"Greta","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for five at 5:00pm. The reservation is under the name Stanley'.
+Expected the object {"bookingName":"Stanley","bookingTime":"5:00pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my reservation is under the name Micah at 2:30pm for seven'.
+Expected the object {"bookingName":"Micah","bookingTime":"2:30pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi! There should be a booking for two people at 4:15pm'.
+Expected the object {"bookingName":null,"bookingTime":"4:15pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for seven at 8:00pm. The reservation is under the name Abigail Clarke'.
+Expected the object {"bookingName":"Abigail Clarke","bookingTime":"8:00pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation for five. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a booking for Johnathan Walker?'.
+Expected the object {"bookingName":"Johnathan Walker","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for five at 9:45am. The reservation is under the name Alicia'.
+Expected the object {"bookingName":"Alicia","bookingTime":"9:45am","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day! There should be a reservation for eight people at 3:15pm'.
+Expected the object {"bookingName":null,"bookingTime":"3:15pm","bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good afternoon! There should be a booking for seven people at 9:15am'.
+Expected the object {"bookingName":null,"bookingTime":"9:15am","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my booking is under the name Conor Johnston at 1:45pm for eight'.
+Expected the object {"bookingName":"Conor Johnston","bookingTime":"1:45pm","bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 8:00pm for five people'.
+Expected the object {"bookingName":null,"bookingTime":"8:00pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for three at 5:45pm. The reservation is under the name Jasper Morris'.
+Expected the object {"bookingName":"Jasper Morris","bookingTime":"5:45pm","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking for seven. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my booking is under the name Randall at 2:00pm for two'.
+Expected the object {"bookingName":"Randall","bookingTime":"2:00pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello, my name is Allison. I have a reservation for seven persons'.
+Expected the object {"bookingName":"Allison","bookingTime":null,"bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day, I am Andre Moreno and there should be a reservation for three at 12:00pm'.
+Expected the object {"bookingName":"Andre Moreno","bookingTime":"12:00pm","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 7:45pm for five people'.
+Expected the object {"bookingName":null,"bookingTime":"7:45pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, my name is Karla Friedman. I have a reservation for six persons'.
+Expected the object {"bookingName":"Karla Friedman","bookingTime":null,"bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation under the name Brendan Liu'.
+Expected the object {"bookingName":"Brendan Liu","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation for two. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my reservation is under the name Evie Phillips at 4:00pm for seven'.
+Expected the object {"bookingName":"Evie Phillips","bookingTime":"4:00pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, I am Jenny and there should be a reservation for four at 8:45pm'.
+Expected the object {"bookingName":"Jenny","bookingTime":"8:45pm","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 9:45am for three people'.
+Expected the object {"bookingName":null,"bookingTime":"9:45am","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi, I am Elsie Jimenez and there should be a reservation for seven at 3:00pm'.
+Expected the object {"bookingName":"Elsie Jimenez","bookingTime":"3:00pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my reservation is under the name Dillon Weiss at 3:00pm for two'.
+Expected the object {"bookingName":"Dillon Weiss","bookingTime":"3:00pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 5:15pm for five people'.
+Expected the object {"bookingName":null,"bookingTime":"5:15pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there! There should be a booking for three people at 5:15pm'.
+Expected the object {"bookingName":null,"bookingTime":"5:15pm","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good afternoon, I am Cynthia and there should be a booking for five at 3:00pm'.
+Expected the object {"bookingName":"Cynthia","bookingTime":"3:00pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, I am Thomas Moore and there should be a reservation for five at 5:45pm'.
+Expected the object {"bookingName":"Thomas Moore","bookingTime":"5:45pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, I am Harold and there should be a booking for five at 8:45pm'.
+Expected the object {"bookingName":"Harold","bookingTime":"8:45pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day! There should be a booking for three people at 9:45am'.
+Expected the object {"bookingName":null,"bookingTime":"9:45am","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for four at 7:45pm. The booking is under the name Brianna'.
+Expected the object {"bookingName":"Brianna","bookingTime":"7:45pm","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my booking is under the name Eddie Petersen at 8:45pm for two'.
+Expected the object {"bookingName":"Eddie Petersen","bookingTime":"8:45pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi! I have a reservation for Mariana Petersen at 3:30pm'.
+Expected the object {"bookingName":"Mariana Petersen","bookingTime":"3:30pm","bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 8:45pm for six people'.
+Expected the object {"bookingName":null,"bookingTime":"8:45pm","bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day, my name is Ahmed. I have a reservation for two persons'.
+Expected the object {"bookingName":"Ahmed","bookingTime":null,"bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking under the name Heidi'.
+Expected the object {"bookingName":"Heidi","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation for eight. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for four at 1:00pm. The booking is under the name Jazmin Bryant'.
+Expected the object {"bookingName":"Jazmin Bryant","bookingTime":"1:00pm","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day, I am Stanley Olsen and there should be a booking for seven at 11:30am'.
+Expected the object {"bookingName":"Stanley Olsen","bookingTime":"11:30am","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello! I have a reservation for Branden at 7:00pm'.
+Expected the object {"bookingName":"Branden","bookingTime":"7:00pm","bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 9:45am for seven people'.
+Expected the object {"bookingName":null,"bookingTime":"9:45am","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation for six. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello! There should be a reservation for seven people at 2:45pm'.
+Expected the object {"bookingName":null,"bookingTime":"2:45pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for eight at 7:15pm. The booking is under the name Marcel'.
+Expected the object {"bookingName":"Marcel","bookingTime":"7:15pm","bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there! There should be a reservation for eight people at 3:00pm'.
+Expected the object {"bookingName":null,"bookingTime":"3:00pm","bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for two at 8:00pm. The booking is under the name Omar Bennett'.
+Expected the object {"bookingName":"Omar Bennett","bookingTime":"8:00pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 5:15pm for seven people'.
+Expected the object {"bookingName":null,"bookingTime":"5:15pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking for three. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a booking for Riley Christensen?'.
+Expected the object {"bookingName":"Riley Christensen","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation under the name Emmy'.
+Expected the object {"bookingName":"Emmy","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking for two. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my reservation is under the name Owen at 6:45pm for seven'.
+Expected the object {"bookingName":"Owen","bookingTime":"6:45pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking under the name Mauricio Cooke'.
+Expected the object {"bookingName":"Mauricio Cooke","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi, I am Bridget and there should be a booking for eight at 9:30am'.
+Expected the object {"bookingName":"Bridget","bookingTime":"9:30am","bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi, my name is Fernanda Henderson. I have a booking for four persons'.
+Expected the object {"bookingName":"Fernanda Henderson","bookingTime":null,"bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my reservation is under the name Brady at 9:45am for five'.
+Expected the object {"bookingName":"Brady","bookingTime":"9:45am","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, my name is Felix Christensen. I have a booking for three persons'.
+Expected the object {"bookingName":"Felix Christensen","bookingTime":null,"bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking for three. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation under the name Tatiana'.
+Expected the object {"bookingName":"Tatiana","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day! I have a booking for Dana Cruz at 2:00pm'.
+Expected the object {"bookingName":"Dana Cruz","bookingTime":"2:00pm","bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day! There should be a reservation for four people at 8:00pm'.
+Expected the object {"bookingName":null,"bookingTime":"8:00pm","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello! There should be a booking for two people at 3:00pm'.
+Expected the object {"bookingName":null,"bookingTime":"3:00pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a booking for Katelynn Choi?'.
+Expected the object {"bookingName":"Katelynn Choi","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello! I have a reservation for Mike at 7:45pm'.
+Expected the object {"bookingName":"Mike","bookingTime":"7:45pm","bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day, I am Deven and there should be a booking for four at 11:15am'.
+Expected the object {"bookingName":"Deven","bookingTime":"11:15am","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking under the name Ismael'.
+Expected the object {"bookingName":"Ismael","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking for seven. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a booking under the name Pablo Sanders'.
+Expected the object {"bookingName":"Pablo Sanders","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation for six. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 8:00pm for seven people'.
+Expected the object {"bookingName":null,"bookingTime":"8:00pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Can you please check if there is a booking for Johnathon Schroeder?'.
+Expected the object {"bookingName":"Johnathon Schroeder","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 2:30pm for six people'.
+Expected the object {"bookingName":null,"bookingTime":"2:30pm","bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation under the name Bianca'.
+Expected the object {"bookingName":"Bianca","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for two at 8:30pm. The booking is under the name Clarence'.
+Expected the object {"bookingName":"Clarence","bookingTime":"8:30pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my booking is under the name Cornelius at 10:15am for two'.
+Expected the object {"bookingName":"Cornelius","bookingTime":"10:15am","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there! There should be a reservation for four people at 8:45pm'.
+Expected the object {"bookingName":null,"bookingTime":"8:45pm","bookingNumber":"four"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there, I am Mara and there should be a reservation for two at 2:15pm'.
+Expected the object {"bookingName":"Mara","bookingTime":"2:15pm","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table for five at 8:00pm. The reservation is under the name Allison'.
+Expected the object {"bookingName":"Allison","bookingTime":"8:00pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 9:00am for eight people'.
+Expected the object {"bookingName":null,"bookingTime":"9:00am","bookingNumber":"eight"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I'll repeat a second time, my booking is under the name Benjamin at 12:45pm for seven'.
+Expected the object {"bookingName":"Benjamin","bookingTime":"12:45pm","bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation for six. This is the first time I come here'.
+Expected the object {"bookingName":null,"bookingTime":null,"bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I booked a table at 5:45pm for five people'.
+Expected the object {"bookingName":null,"bookingTime":"5:45pm","bookingNumber":"five"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good day! There should be a reservation for six people at 5:45pm'.
+Expected the object {"bookingName":null,"bookingTime":"5:45pm","bookingNumber":"six"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello, my name is Dahlia. I have a booking for seven persons'.
+Expected the object {"bookingName":"Dahlia","bookingTime":null,"bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi! There should be a reservation for two people at 10:45am'.
+Expected the object {"bookingName":null,"bookingTime":"10:45am","bookingNumber":"two"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'I have a reservation under the name Frederick Li'.
+Expected the object {"bookingName":"Frederick Li","bookingTime":null,"bookingNumber":null}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hi, my name is Alexa. I have a reservation for seven persons'.
+Expected the object {"bookingName":"Alexa","bookingTime":null,"bookingNumber":"seven"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Good afternoon, I am Alvaro and there should be a booking for three at 4:30pm'.
+Expected the object {"bookingName":"Alvaro","bookingTime":"4:30pm","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+ERROR::
+Error parsing the enquiry 'Hello there! There should be a booking for three people at 1:30pm'.
+Expected the object {"bookingName":null,"bookingTime":"1:30pm","bookingNumber":"three"}
+but got {"bookingName":null,"bookingTime":null,"bookingNumber":null} instead.
+SCORE:: Correctly parsed enquiries 0 of 100.
